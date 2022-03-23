@@ -8,7 +8,7 @@ public class BookRunner {
         System.out.println("******* Default Constructor ******");
 
         Book algorithmBook = new Book();
-        System.out.printf("Algorithm Books Available: %d",algorithmBook.getNumberOfCopies()).println();
+        System.out.printf("Algorithm Books Available: ",algorithmBook.getNumberOfCopies()).println();
         //System.out.println(algorithmBook.getNumberOfCopies());
 
         Book dataStructure = new Book();
@@ -44,7 +44,7 @@ public class BookRunner {
         algorithmBook.increaseNumberOfCopies(50);
         System.out.printf("Algorithm Books Available: %d",algorithmBook.getNumberOfCopies()).println();
 
-        algorithmBook.decreaseNumberOfCopies(45);
+        algorithmBook.decreaseNumberOfCopies(30);
         System.out.printf("Algorithm Books Available: %d",algorithmBook.getNumberOfCopies()).println();
 
 
