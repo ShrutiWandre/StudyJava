@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 public class EmployeeRunner {
 
     public static void main(String[] args) {
+
             Employee employee = new Employee();
             employee.setPersonName("Shruti");
             employee.setPersonPhone("1111236440");
@@ -14,5 +15,6 @@ public class EmployeeRunner {
             employee.setEmpGrade('A');
             employee.setEmpSalary(new BigDecimal(25000));
             System.out.println(employee);
+
     }
 }
